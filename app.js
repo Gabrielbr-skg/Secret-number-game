@@ -24,7 +24,6 @@ textHTML ('h1', 'Welcome to the Secret Number Game!');
 textHTML ('p', 'Guess a number between 1 and 100');
 }
 showMessage();
-
     console.log (secretNumber);
 function verifyKick(number) {
     let kick = document.querySelector('input').value;
